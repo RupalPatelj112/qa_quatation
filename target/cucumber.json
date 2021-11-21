@@ -1,0 +1,306 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 529621153,
+              "status": "passed"
+            },
+            "match": {
+              "location": "QaQuotationSteps.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verify interest rate is return",
+        "description": "",
+        "id": "qa-quotation-engine---verify-that-a-member-is-entitle-to-get-a-loan.;verify-interest-rate-is-return;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 55888,
+              "status": "passed"
+            },
+            "match": {
+              "location": "QaQuotationSteps.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1810436995,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Create a new member using the POST request",
+            "match": {
+              "location": "QaQuotationSteps.createANewMemberPostRequest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1296542749,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Create a new quote for the member using POST request with \"15000\" for \"30000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15000",
+                  "offset": 59
+                },
+                {
+                  "val": "30000",
+                  "offset": 71
+                }
+              ],
+              "location": "QaQuotationSteps.createANewQuoteForTheMemberUsingPOSTRequestWithFor(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18913340,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Interest rate is verified from the response and not null",
+            "match": {
+              "location": "QaQuotationSteps.verifyANewQuoteForMemberPOSTRequest()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@qaquatation"
+          },
+          {
+            "line": 8,
+            "name": "@sanity"
+          },
+          {
+            "line": 8,
+            "name": "@interest_rate"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 353729594,
+              "status": "passed"
+            },
+            "match": {
+              "location": "QaQuotationSteps.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Verify quoteOffered as false",
+        "description": "",
+        "id": "qa-quotation-engine---verify-that-a-member-is-entitle-to-get-a-loan.;verify-quoteoffered-as-false;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 21969,
+              "status": "passed"
+            },
+            "match": {
+              "location": "QaQuotationSteps.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 223419358,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 21,
+                "value": "#    Given registered member using the POST request"
+              }
+            ],
+            "line": 22,
+            "name": "Create a new member using the POST request",
+            "match": {
+              "location": "QaQuotationSteps.createANewMemberPostRequest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1350359036,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Create a new quote for the member using POST request with \"2500\" for \"1000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2500",
+                  "offset": 59
+                },
+                {
+                  "val": "1000",
+                  "offset": 70
+                }
+              ],
+              "location": "QaQuotationSteps.createANewQuoteForTheMemberUsingPOSTRequestWithFor(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14263659,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "quoteOffered return false",
+            "match": {
+              "location": "QaQuotationSteps.quoteofferedReturnFalse()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@quote_offered"
+          },
+          {
+            "line": 1,
+            "name": "@qaquatation"
+          },
+          {
+            "line": 19,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 149050776,
+              "status": "passed"
+            },
+            "match": {
+              "location": "QaQuotationSteps.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Verify a non-existent member",
+        "description": "",
+        "id": "qa-quotation-engine---verify-that-a-member-is-entitle-to-get-a-loan.;verify-a-non-existent-member;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 20873,
+              "status": "passed"
+            },
+            "match": {
+              "location": "QaQuotationSteps.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 952404092,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Create a new quote for the non existent member using POST request with \"24000\" for \"100000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "24000",
+                  "offset": 72
+                },
+                {
+                  "val": "100000",
+                  "offset": 84
+                }
+              ],
+              "location": "QaQuotationSteps.createANewQuoteForTheNonExistentMemberUsingPOSTRequestWithFor(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6522039,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "error message appeared with 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 28
+                }
+              ],
+              "location": "QaQuotationSteps.errorMessageAppearedWith(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 29,
+            "name": "@non_exist_member"
+          },
+          {
+            "line": 1,
+            "name": "@qaquatation"
+          },
+          {
+            "line": 29,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "QA Quotation Engine - Verify that a member is entitle to get a loan.",
+    "description": "\nAs a  admin\nI want to utilise endpoint of the QA Quotation Engine API\u0027s\nSo I can verify the loan been given to a member",
+    "id": "qa-quotation-engine---verify-that-a-member-is-entitle-to-get-a-loan.",
+    "keyword": "Feature",
+    "uri": "qa/quotation/qaquotation.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@qaquatation"
+      }
+    ]
+  }
+]

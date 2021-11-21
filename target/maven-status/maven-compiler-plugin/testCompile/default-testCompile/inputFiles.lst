@@ -1,0 +1,11 @@
+/Users/rupalpatel/Downloads/qa-cotation-engine/src/test/java/com/qa/quotation/apitest/utils/ConfigUtils.java
+/Users/rupalpatel/Downloads/qa-cotation-engine/src/test/java/com/qa/quotation/apitest/constants/ScenarioKeys.java
+/Users/rupalpatel/Downloads/qa-cotation-engine/src/test/java/com/qa/quotation/apitest/utils/TestDataRecord.java
+/Users/rupalpatel/Downloads/qa-cotation-engine/src/test/java/com/qa/quotation/apitest/service/AbstractSteps.java
+/Users/rupalpatel/Downloads/qa-cotation-engine/src/test/java/com/qa/quotation/apitest/runner/TestRunner.java
+/Users/rupalpatel/Downloads/qa-cotation-engine/src/test/java/com/qa/quotation/apitest/utils/TestDataUtils.java
+/Users/rupalpatel/Downloads/qa-cotation-engine/src/test/java/com/qa/quotation/apitest/context/TestContext.java
+/Users/rupalpatel/Downloads/qa-cotation-engine/src/test/java/com/qa/quotation/apitest/context/ScenarioContext.java
+/Users/rupalpatel/Downloads/qa-cotation-engine/src/test/java/com/qa/quotation/apitest/requests/quotation/QaQuotation.java
+/Users/rupalpatel/Downloads/qa-cotation-engine/src/test/java/com/qa/quotation/apitest/stepDefinitions/QaQuotationSteps.java
+/Users/rupalpatel/Downloads/qa-cotation-engine/src/test/java/com/qa/quotation/apitest/constants/ServiceUrlConstants.java
